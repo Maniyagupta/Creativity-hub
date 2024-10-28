@@ -1,0 +1,33 @@
+.video-links {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+    background: #f9f9f9;
+    border-radius: 8px;
+}
+
+.video-item {
+    margin-bottom: 20px;
+    padding: 15px;
+    border-bottom: 1px solid #ddd;
+}
+
+.video-item h3 {
+    font-size: 1.25em;
+    color: #2575fc;
+    margin-bottom: 8px;
+}
+
+.video-item p {
+    color: #555;
+    margin-bottom: 5px;
+}
+
+.video-item a {
+    color: #2575fc;
+    text-decoration: none;
+}
+
+.video-item a:hover {
+    text-decoration: underline;
+}

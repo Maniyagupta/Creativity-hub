@@ -1,0 +1,269 @@
+/* Basic reset for margin and padding */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Header styles */
+header {
+    background-color: #333; /* Dark background for the header */
+    color: white;           /* White text color */
+    padding: 10px 20px;    /* Padding for the header */
+}
+
+/* Navigation styles */
+nav ul {
+    list-style-type: none;  /* Remove bullet points */
+    display: flex;          /* Use flexbox for layout */
+    justify-content: flex-end; /* Align links to the right */
+}
+
+nav ul li {
+    margin-left: 20px;     /* Space between links */
+}
+
+nav ul li a {
+    color: white;          /* Link text color */
+    text-decoration: none; /* Remove underline from links */
+    font-weight: bold;     /* Bold text for links */
+    transition: color 0.3s; /* Smooth color transition on hover */
+}
+
+nav ul li a:hover {
+    color: #ffa500;        /* Change color on hover (orange) */
+}
+
+/* Basic Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Global Styles */
+body {
+    font-family: 'Arial', sans-serif;
+    color: #444;
+    line-height: 1.6;
+    background-color: #f4f4f9;
+}
+
+.container {
+    width: 90%;
+    max-width: 1200px;
+    margin: auto;
+}
+
+
+
+/* Header Section */
+header {
+    position: relative;
+    background: linear-gradient(rgba(54, 54, 54, 0.5), rgba(54, 54, 54, 0.5)), 
+                url('https://img.freepik.com/premium-vector/diverse-hobbies-activities-illustration-set_53876-477429.jpg') center top / auto 150% no-repeat;
+    color: white;
+    min-height: calc(100vh * 4 / 9);  /* Sets the height to 4/9ths of the viewport height */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 0 2rem;  /* Adds padding on both sides */
+}
+
+/* Header Content */
+
+
+header h1 {
+    font-size: 4.5rem;
+    font-weight: bold;
+    text-align: left;  /* Aligns the title to the left */
+    margin-bottom: 0.5rem;
+}
+
+
+header p {
+    font-size: 1.2rem;
+    max-width: 600px;
+    margin-left: auto;  /* Aligns the paragraph to the right */
+    text-align: right;  /* Aligns the text to the right */
+    margin-bottom: 2rem;
+    margin-top: 0;  /* Removes top margin to align with the header */
+}
+
+/* Centered Button Section */
+/* Form Section Styling */
+.form-section {
+    max-width: 600px; /* Max width for the form */
+    margin: 20px auto; /* Center the form */
+    padding: 20px; /* Padding inside the form */
+    border: 1px solid #ccc; /* Border for the form */
+    border-radius: 8px; /* Rounded corners */
+    background: #f9f9f9; /* Light background */
+}
+
+h2 {
+    text-align: center; /* Center the section heading */
+}
+
+.form-group {
+    margin-bottom: 15px; /* Space between form groups */
+}
+
+label {
+    display: block; /* Labels on a new line */
+    margin-bottom: 5px; /* Space below label */
+    font-weight: bold; /* Bold labels */
+}
+
+input, select, textarea {
+    width: 100%; /* Full width inputs */
+    padding: 10px; /* Padding inside inputs */
+    border: 1px solid #ccc; /* Border for inputs */
+    border-radius: 4px; /* Rounded corners for inputs */
+}
+
+.cta-button {
+    display: block; /* Make the button a block element */
+    width: auto; /* Set width to auto for a smaller button */
+    padding: 8px 16px; /* Adjust padding for a smaller button */
+    background-color: #2575fc; /* Button background color */
+    color: white; /* Button text color */
+    border: none; /* No border for button */
+    border-radius: 4px; /* Rounded corners for button */
+    cursor: pointer; /* Pointer cursor on hover */
+    font-size: 16px; /* Button text size */
+    text-align: center; /* Center the text in the button */
+    margin: 0 auto; /* Center the button horizontally and add vertical spacing */
+}
+
+.cta-button:hover {
+    background-color: #6a11cb; /* Change background on hover */
+}
+
+
+/* Popular Hobbies Section */
+.section {
+    padding: 3rem 0;
+    text-align: center;
+}
+
+h2 {
+    font-size: 2rem;
+    color: #333;
+    margin-bottom: 1.5rem;
+}
+
+/* Add to your existing CSS file */
+
+/* Add to your existing CSS file */
+
+/* Popular Hobbies Section */
+.hobby-cards {
+    display: flex; 
+    overflow: hidden;  /* Hide overflow */
+    white-space: nowrap;  /* Prevent wrapping */
+    animation: scroll 20s linear infinite;  /* Slower speed for animation */
+}
+
+.hobby-cards .card {
+    display: inline-block;  /* Allow cards to sit next to each other */
+    width: 100%;  /* Set a fixed width for each card */
+    margin-right: 20px;  /* Space between cards */
+    background: #fff;  /* Optional: Background color for the card */
+    border-radius: 8px;  /* Optional: Rounded corners */
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);  /* Optional: Shadow for depth */
+    overflow: hidden;  /* Optional: Hide overflow for rounded corners */
+}
+
+@keyframes scroll {
+    0% {
+        transform: translateX(0);  /* Start from the left */
+    }
+    100% {
+        transform: translateX(-50%);  /* End at -50% for continuous effect */
+    }
+}
+
+
+
+
+.card {
+    background: white;
+    border-radius: 10px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    width: 280px;
+    transition: transform 0.3s;
+}
+
+.card:hover {
+    transform: scale(1.05);
+}
+
+.card img {
+    width: 100%;
+    height: 180px;
+    object-fit: cover;
+}
+
+.card-content {
+    padding: 1.5rem;
+}
+
+.card-content h3 {
+    font-size: 1.5rem;
+    color: #3490dc;
+}
+
+.card-content p {
+    font-size: 1rem;
+    color: #666;
+    margin: 1rem 0;
+}
+
+.learn-more {
+    display: inline-block;
+    padding: 0.5rem 1rem;
+    color: #3490dc;
+    border: 1px solid #3490dc;
+    border-radius: 5px;
+    text-decoration: none;
+    transition: background 0.3s, color 0.3s;
+}
+
+.learn-more:hover {
+    background-color: #3490dc;
+    color: white;
+}
+
+/* Community Section */
+#community {
+    background: #3490dc;
+    color: white;
+    padding: 3rem 0;
+}
+
+#community .cta-button {
+    background-color: #ff9f43;
+    color: white;
+    border: none;
+    margin-top: 1.5rem;
+}
+
+#community .cta-button:hover {
+    background-color: #ff6f00;
+}
+
+/* Footer Section */
+footer {
+    background: #333;
+    color: white;
+    padding: 1.5rem 0;
+    text-align: center;
+    font-size: 0.9rem;
+}
+
+footer a {
+    color: #6cb2eb;
+    text-decoration: none;
+}
